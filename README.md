@@ -1,4 +1,4 @@
-# First Part: 📬 Gmail Email Export via Gmail API (Python)
+# First Part: Email data Export via Gmail API (Python)
 
 This project connects to your Gmail account using the official Gmail API, extracts metadata from your emails (such as `Date`, `From`, `Subject`), and exports it into a CSV file for further analysis in Power BI, Streamlit, or other tools.
 
@@ -80,7 +80,7 @@ The script shows progress in the terminal during fetching and processing, and en
 - Email behavior dashboards (Power BI / Streamlit)  
 - Identifying top senders or activity patterns
 ---
-#  📬 Gmail Activity Dashboard
+# Second Part: Gmail Activity Dashboard
 
 ## 📌 What is this about?
 
