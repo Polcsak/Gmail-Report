@@ -1,4 +1,4 @@
-# 📬 Gmail Email Export via Gmail API (Python)
+# First Part: 📬 Gmail Email Export via Gmail API (Python)
 
 This project connects to your Gmail account using the official Gmail API, extracts metadata from your emails (such as `Date`, `From`, `Subject`), and exports it into a CSV file for further analysis in Power BI, Streamlit, or other tools.
 
@@ -78,4 +78,44 @@ The script shows progress in the terminal during fetching and processing, and en
 
 - Personal inbox analytics  
 - Email behavior dashboards (Power BI / Streamlit)  
-- Identifying top senders or activity patterns  
+- Identifying top senders or activity patterns
+---
+#  📬 Gmail Activity Dashboard
+
+## 📌 What is this about?
+
+This dashboard gives me a clear overview of my Gmail activity over time. I connected directly to my Gmail account using the **official Gmail API via Google Cloud**, and extracted metadata like sender, subject, labels, and timestamps.
+
+I built it mostly out of curiosity – to better understand my email habits, how much time I spend in communication, and whether certain days or weeks are heavier than others.
+
+---
+
+## 📊 What it shows
+
+- Number of emails sent and received by day/week/month  
+- Breakdown by labels (e.g., important, work, personal, unread)  
+- Top senders and recipients  
+- Trends in email activity over time  
+- Hour-of-day and day-of-week heatmaps
+
+---
+
+## 🎯 Why I made it
+
+Email takes up a big part of my day, and I wanted to see that visually. Some reasons this dashboard might be useful:
+
+- **Productivity tracking**: spot peaks and patterns in communication  
+- **Personal insight**: understand who I interact with the most  
+- **Portfolio project**: shows how I work with APIs, Google Cloud, and Power BI  
+- Could be expanded for **team inbox monitoring** or **support ticket tracking**
+
+---
+
+> 🔐 The data shown here is real but anonymized for privacy.  
+> 🛠️ The connection to Gmail was built using a custom Python script and Google Cloud credentials.
+
+---
+
+Let me know if you'd like to see the script or how the connection works – happy to share more.
+
+  
